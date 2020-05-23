@@ -1,7 +1,8 @@
 import telebot
+import constants
 
 #main variables
-TOKEN = "1175307787:AAF4iOHtNeDRhYzZ1edvBooCqTCgSX_crno"
+TOKEN = constants.TOKEN
 bot = telebot.TeleBot(TOKEN)
 
 
